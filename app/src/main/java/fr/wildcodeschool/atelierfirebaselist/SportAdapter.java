@@ -1,6 +1,5 @@
 package fr.wildcodeschool.atelierfirebaselist;
 
-import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +8,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class SportAdapter extends RecyclerView.Adapter<SportAdapter.SportVH> {
+public class SportAdapter extends RecyclerView.Adapter<SportAdapter.SportViewHolder> {
 
     private ArrayList<Sport> sports;
 
@@ -17,16 +16,15 @@ public class SportAdapter extends RecyclerView.Adapter<SportAdapter.SportVH> {
         this.sports = sports;
     }
 
-    @NonNull
     @Override
-    public SportVH onCreateViewHolder(@NonNull ViewGroup parent, int i) {
+    public SportViewHolder onCreateViewHolder(ViewGroup parent, int position) {
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_sport, parent, false);
-        return new SportVH(v);
+        return new SportViewHolder(v);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull SportVH holder, int position) {
+    public void onBindViewHolder(SportViewHolder holder, int position) {
         Sport sport = sports.get(position);
         holder.tvName.setText(sport.getName());
     }
@@ -36,11 +34,11 @@ public class SportAdapter extends RecyclerView.Adapter<SportAdapter.SportVH> {
         return sports.size();
     }
 
-    class SportVH extends RecyclerView.ViewHolder {
+    class SportViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvName;
 
-        public SportVH(@NonNull View itemView) {
+        public SportViewHolder(View itemView) {
             super(itemView);
             tvName = itemView.findViewById(R.id.tvName);
         }

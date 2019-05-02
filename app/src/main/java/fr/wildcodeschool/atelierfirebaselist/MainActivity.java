@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // 1 : Liste d'objet Sport à afficher
-        /*ArrayList<Sport> sports = new ArrayList<>();
+        /*
+        ArrayList<Sport> sports = new ArrayList<>();
         Sport foot = new Sport("Football", true, true);
         Sport tennis = new Sport("Tennis", false, true);
         Sport natation = new Sport("Natation", false, false);
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         sports.add(foot);
         sports.add(tennis);
         sports.add(natation);
-        sports.add(escalade)*/
+        sports.add(escalade)
+        */
 
         // 2 : RecyclerView
         RecyclerView rvSports = findViewById(R.id.rvSports);
@@ -57,22 +59,20 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         //Query myRef = database.getReference("loisir").orderByChild("outdoor").equalTo(false);
-        DatabaseReference myRef = database.getReference("loisir");
-        // Read from the database
-        myRef.addValueEventListener(new ValueEventListener() {
+        DatabaseReference sportRef = database.getReference("loisir");
+        sportRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot sportSnapshot : dataSnapshot.getChildren()) {
                     Sport sport = sportSnapshot.getValue(Sport.class);
                     sports.add(sport);
                 }
-                // Nofitier l'adapter que les données ont été modifiées
+                // Notifier l'adapter que les données ont été modifiées
                 adapter.notifyDataSetChanged();
             }
 
             @Override
             public void onCancelled(DatabaseError error) {
-                // Failed to read value
             }
         });
     }

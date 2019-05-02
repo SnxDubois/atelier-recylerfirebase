@@ -40,9 +40,6 @@ public class AddSportActivity extends AppCompatActivity {
                 DatabaseReference myRef = database.getReference("loisir");
 
                 // 4. Ajouter un nouvel élément dans la référence (avec un identifiant unique)
-                //String key = myRef.push().getKey();
-                //myRef.child(key).setValue(newSport);
-
                 myRef.push().setValue(newSport);
             }
         });
