@@ -1,0 +1,270 @@
+{
+  "project_info": {
+    "project_number": "141989172119",
+    "firebase_url": "https://atelierfirebase-33d74.firebaseio.com",
+    "project_id": "atelierfirebase-33d74",
+    "storage_bucket": "atelierfirebase-33d74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141989172119:android:51cc2205e79910bb",
+        "android_client_info": {
+          "package_name": "com.example.bastienwcs.atelierfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141989172119-i4433u5lpaj7m8gc0b3uf74eoao5vf7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bastienwcs.atelierfirebase",
+            "certificate_hash": "d10c7908868ff2bf0e5630fd28c08cf67757a5fc"
+          }
+        },
+        {
+          "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkeKYfE5XbIQ59H6R9HpAknEI4R7dRA5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141989172119:android:154cf989bd3ae220",
+        "android_client_info": {
+          "package_name": "fr.wcs.wildtweet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141989172119-doh1tj8g7bg7lrv66elkikoab8p3oiuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.wcs.wildtweet",
+            "certificate_hash": "5af72ffa95c5433ec923fb9081e885c3a5dec83a"
+          }
+        },
+        {
+          "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkeKYfE5XbIQ59H6R9HpAknEI4R7dRA5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141989172119:android:a00e364c7f1bc808",
+        "android_client_info": {
+          "package_name": "fr.wildcodeschool.atelierfirebaselist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141989172119-5ql5h2nurrlt70so28sfk01vpo4cr753.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.wildcodeschool.atelierfirebaselist",
+            "certificate_hash": "233624ac76dbf5c90a196d3142e2d0b33f5dde62"
+          }
+        },
+        {
+          "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkeKYfE5XbIQ59H6R9HpAknEI4R7dRA5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141989172119:android:982eaadd93ce5971",
+        "android_client_info": {
+          "package_name": "fr.wildcodeschool.blablawild2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141989172119-emvsi4i4v6m4euclf8j1t7hqth5v1c95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.wildcodeschool.blablawild2",
+            "certificate_hash": "ea94f11c205ea4b1cde691d63f4ed31c251cbc3a"
+          }
+        },
+        {
+          "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkeKYfE5XbIQ59H6R9HpAknEI4R7dRA5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141989172119:android:b986e8c09363ba0f",
+        "android_client_info": {
+          "package_name": "fr.wildcodeschool.coursfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141989172119-8hn9dlfga2uo8a4hhpckfrf7jmca1s1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.wildcodeschool.coursfirebase",
+            "certificate_hash": "233624ac76dbf5c90a196d3142e2d0b33f5dde62"
+          }
+        },
+        {
+          "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkeKYfE5XbIQ59H6R9HpAknEI4R7dRA5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141989172119:android:1c807ed8a94b69b2",
+        "android_client_info": {
+          "package_name": "fr.wildcodeschool.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141989172119-skdmbg97apq07quio03ql2om4rounf4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.wildcodeschool.firebase",
+            "certificate_hash": "233624ac76dbf5c90a196d3142e2d0b33f5dde62"
+          }
+        },
+        {
+          "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkeKYfE5XbIQ59H6R9HpAknEI4R7dRA5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141989172119:android:0f7ca947906281b4",
+        "android_client_info": {
+          "package_name": "fr.wildcodeschool.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141989172119-e9msaf1qu8l67n92snmnnq9ui6qb83h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.wildcodeschool.firebasetest",
+            "certificate_hash": "39b628db43a28908ea27523f960cb30720a85b93"
+          }
+        },
+        {
+          "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkeKYfE5XbIQ59H6R9HpAknEI4R7dRA5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141989172119-8qcusfl9304uoi027fl1ucnaig8e891v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
